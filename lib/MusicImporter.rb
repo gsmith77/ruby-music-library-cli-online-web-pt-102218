@@ -12,7 +12,6 @@ class MusicImporter
     filenames = Dir.glob("*.mp3")
     Dir.chdir(current_dir)
     filenames
-   #binding.pry
   end
   
     def import
